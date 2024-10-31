@@ -14,6 +14,12 @@ const router = createRouter({
       name: 'DHCDetails',
       component: () => import('../views/DHCDetails.vue')
     },
+    {
+      path: '/YangXuan',
+      name: 'YangXuan',
+      component: () => import('../views/YangXuan.vue')
+    },
+    
     
   ]
 })

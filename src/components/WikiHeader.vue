@@ -5,31 +5,36 @@ import { RouterLink } from 'vue-router';
 <template>
     <div class="wikiNav">
         <div>
-            <a class="wikiTitleText">
-                DHC维基
-            </a>
+            <RouterLink to="/">
+                <a class="wikiTitleText">
+                    DHC维基
+                </a>
+            </RouterLink>
         </div>
-        <div class ="wikiNavItem">
-            <a class="wikiNavItem">首页</a>
+        <div class="wikiNavItem">
+            <RouterLink to="/"><a class="wikiNavItem">首页</a></RouterLink>
+
         </div>
-        <div class ="wikiNavItem">
-            <a class="wikiNavItem">杨选阅读</a>
+        <div class="wikiNavItem">
+            <RouterLink to="/YangXuan"><a class="wikiNavItem">杨选阅读</a></RouterLink>
         </div>
     </div>
 
 </template>
 
 <style scoped>
-.wikiNavItem{
+.wikiNavItem {
     margin-left: 10px;
     align-self: center;
-    color:#a8a8a8;
-    font-size:18px;
+    color: #a8a8a8;
+    font-size: 18px;
 }
-.wikiTitleText a{
-    color:#3a3a3a;
-    
+
+.wikiTitleText a {
+    color: #3a3a3a;
+
 }
+
 .wikiTitleText {
     font-size: 25px;
     font-weight: bold;
