@@ -1,4 +1,8 @@
 import './assets/main.css'
+import './assets/uikit.min.css'
+import './assets/uikit.min.js'
+import './assets/uikit-icons.min.js'
+
 
 import { createApp } from 'vue'
 import App from './App.vue'

@@ -4,7 +4,7 @@ import WikiQueto from '@/components/Wiki/WikiQueto.vue'
 
 <template>
     <li class="uk-open">
-        <a class="uk-accordion-title" href># 遁入网络</a>
+        <a class="uk-accordion-title" href># 网络大世界</a>
 
         <div class="uk-accordion-content">
             

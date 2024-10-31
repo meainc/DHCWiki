@@ -8,17 +8,22 @@ import DHCIntro from '../components/WikiHomeMenu/DHCIntro.vue';
     </header>
 
     <main>
-        <div class="uk-card uk-card-default wiki-content-menu">
+        <!--div class="uk-card uk-card-default wiki-content-menu"-->
+        <div class="wiki-content-menu">
+
+        
             <ul uk-accordion="">
                 <WikiIntro/>
                 <DHCIntro/>
             </ul>
         </div>
+        <!--/div-->
     </main>
 </template>
 
 <style scoped>
 .wiki-content-menu{
     padding: 20px;
+    
 }
 </style>

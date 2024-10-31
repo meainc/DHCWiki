@@ -1,15 +1,15 @@
 <script setup>
 import dhcimage from "@/assets/DHC/DHC.jpg";
 import p0 from "@/components/DHC/contents/身份信息.vue";
-import p1 from "@/components/DHC/contents/魔童降生.vue";
-import p2 from "@/components/DHC/contents/扭曲的成长.vue";
+import p1 from "@/components/DHC/contents/表演型人格.vue";
+import p2 from "@/components/DHC/contents/演员的成长.vue";
 import p3 from "@/components/DHC/contents/那一天.vue";
-import p4 from "@/components/DHC/contents/遁入网络.vue";
+import p4 from "@/components/DHC/contents/网络大世界.vue";
 </script>
 
 <template>
     <div>
-        <div class="uk-card uk-card-default wiki-content-menu">
+        <!--div class="uk-card uk-card-default wiki-content-menu"-->
             <div class="uk-card-body">
                 <div class="DHCInfo">
                     <div class="DHCInfo-sum">
@@ -38,7 +38,7 @@ import p4 from "@/components/DHC/contents/遁入网络.vue";
                 </div>
             </div>
 
-        </div>
+        <!--/div-->
 
     </div>
 </template>
